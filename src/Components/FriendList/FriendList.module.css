@@ -1,0 +1,38 @@
+.list {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.item {
+  padding: 25px 10px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgba(0,0,0, .25);
+  cursor: pointer;
+}
+
+.name {
+  color: #000;
+  font-weight: 600;
+}
+
+.offline {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background: red;
+}
+
+.online {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background: green;
+}
